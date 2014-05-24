@@ -1,14 +1,14 @@
 # Maintainer: Augusto F. Hack <hack.augusto@gmail.com>
 pkgname=statsite-git
 pkgver=0.6.5
-pkgrel=1
+pkgrel=2
 pkgdesc="Simple daemon for easy stats aggregation compatible statsd"
 arch=('x86_64')
 url="http://armon.github.io/statsite/"
 license=('custom')
 depends=()
 optdepends=('python2' 'ruby')
-makedepends=('git' 'scons')
+makedepends=('git' 'scons' 'make' 'gcc')
 options=(!emptydirs)
 source=('statsite::git+https://github.com/armon/statsite.git'
         'statsite.conf'
