@@ -1,0 +1,7 @@
+pkg
+src
+statsite
+*.src.tar.gz
+*.pkg.tar.gz
+*.pkg.tar.xz
+*~
